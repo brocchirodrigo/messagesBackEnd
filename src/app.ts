@@ -29,7 +29,7 @@ app.use(express.json());
 app.use(router);
 
 app.get('/', (req, res) => {
-  response.json({
+  res.json({
     developer: "Rodrigo Mendes Brocchi",
     Github: "https://github.com/brocchirodrigo",
     details: {
