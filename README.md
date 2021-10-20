@@ -13,3 +13,10 @@ Projeto desenvolvido no NLW Heat 2021 com as seguintes especificações.
 
 ### Utilização do Prisma
 Antes de executar o projeto, será necessário aplicar as migrations com o comando yarn prisma migrate dev
+
+## Rotas
+URL de entrada: https://messageappnlw.herokuapp.com
+ * POST /authenticate para obter o token
+ * POST /messages para criar as mensagens
+ * GET /user/profile para obter os dados do usuário logado
+ * GET /messages/last3 para obter as últimas 3 mensagens
