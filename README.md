@@ -3,8 +3,8 @@
 Projeto desenvolvido no NLW Heat 2021 com as seguintes especificações.
 
 1. Autenticado com o Oath Github para obter e logar os dados do usuário
-2. Dados de autenticação salvos em um SQLite para:
-  * Schema Users (Objetidos do github)
+2. Dados de autenticação salvos em um PostgresSQL para:
+  * Schema Users (Obtidos do github)
   * Schema Messages (Criadas pelo usuário logado)
 
 ## Execução
